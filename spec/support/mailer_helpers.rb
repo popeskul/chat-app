@@ -3,7 +3,7 @@
 require 'i18n'
 
 # Helpers for features
-module MailerHelpers
+module TranslateHelpers
   def t(key, **options)
     I18n.t(key, **options)
   end
